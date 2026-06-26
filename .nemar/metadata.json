@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005307",
-  "source": "openneuro",
-  "source_id": "ds005307",
+  "pipeline_stage": "validated",
   "title": "Laser-evoked potentials in the human spinal cord and cortex",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Birgit Nierula": {},
     "Tilman Stephani": {},
@@ -18,21 +18,76 @@
     "Vadim Nikulin": {},
     "Falk Eippert": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005307.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005307",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005307",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises laser-evoked potentials recorded simultaneously from the human spinal cord and cortex. The study investigates nociceptive processing across multiple levels of the somatosensory system using high-resolution electrophysiological recordings. Data were collected to characterize the spatiotemporal dynamics of pain-related neural responses in both spinal and cortical structures.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "laser-evoked potentials"
+    },
+    {
+      "term": "spinal cord"
+    },
+    {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+    },
+    {
+      "term": "Somatosensory Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
+    },
+    {
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+    }
+  ],
+  "source_hash": "8dfcd3e088e25c109ff855325942f067e0a03c87d3a6b5fca66a2158d22ae7c0"
 }
