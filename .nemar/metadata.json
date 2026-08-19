@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Laser-evoked potentials in the human spinal cord and cortex",
-  "description": "This dataset comprises laser-evoked potentials recorded simultaneously from the human spinal cord and cortex. The study investigates nociceptive processing across multiple levels of the somatosensory system using high-resolution electrophysiological recordings. Data include EEG and spinal cord recordings from multiple subjects, providing insights into pain-related neural activity from peripheral to central nervous system levels.",
+  "description": "This dataset contains laser-evoked potential recordings capturing neural responses in the human spinal cord and cortex following nociceptive laser stimulation. It was collected to investigate the neurophysiological processing of pain-related signals across spinal and cortical levels. The dataset is organized according to the BIDS standard for electrophysiological data.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,7 +27,9 @@
       "term": "laser-evoked potentials"
     },
     {
-      "term": "spinal cord recording"
+      "term": "Spinal Cord",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
     },
     {
       "term": "Nociception",
@@ -35,20 +37,17 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
     },
     {
-      "term": "somatosensory system"
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
-      "term": "pain processing"
+      "term": "cortex"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005307",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005307",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -66,6 +65,11 @@
       "identifier": "10.18112/openneuro.ds005307.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005307",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
