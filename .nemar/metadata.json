@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Laser-evoked potentials in the human spinal cord and cortex",
-  "description": "This dataset contains laser-evoked potential recordings capturing neural responses in the human spinal cord and cortex following nociceptive laser stimulation. It was collected to investigate the neurophysiological processing of pain-related signals across spinal and cortical levels. The dataset is organized according to the BIDS standard for electrophysiological data.",
+  "description": "This dataset contains laser-evoked potentials recorded from the human spinal cord and cortex. It combines electrophysiological recordings to characterize nociceptive responses along the neuraxis. The data are organized in EEG-BIDS format and shared under a CC0 license.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,14 +27,10 @@
       "term": "laser-evoked potentials"
     },
     {
-      "term": "Spinal Cord",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013116"
+      "term": "spinal cord"
     },
     {
-      "term": "Nociception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+      "term": "nociception"
     },
     {
       "term": "Pain",
@@ -42,7 +38,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
-      "term": "cortex"
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
     }
   ],
   "related_identifiers": [
@@ -78,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "20.0 GB (234 files)"
+    "18.59 GB (234 files)"
   ],
   "formats": [
     ".eeg",
